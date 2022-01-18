@@ -1,0 +1,25 @@
+:root { 
+	--mavi: #6bc2f1;
+	--boz: #b5bdc3;
+	--boz2: #f1f1f1;
+	--goy: #3996c9;
+}
+header { 
+    background: url('../img/headerbg.jpg') center/cover 
+}
+.bg-mavi { background: var(--mavi) }
+.bg-boz2 { background: var(--boz2) }
+.text-mavi { color: var(--mavi) }
+.text-goy { color: var(--goy) }
+.text-boz { color: var(--boz) }
+.bg-transp-white { background: rgba(255,255,255,.8) }
+.vh-50 { height: 50vh }
+.vh-70 { height: 70vh }
+.vh-30 { height: 30vh }
+
+
+#fimg1 { background: url('../img/fimg1.jpg') center/cover }
+#fimg2 { background: url('../img/fimg2.jpg') center/cover }
+#fimg1:hover, #fimg2:hover { opacity: .5; }
+#message { height: 200px}
+footer { background: #072135}
